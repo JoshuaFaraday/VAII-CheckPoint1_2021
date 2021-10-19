@@ -1,0 +1,107 @@
+body {
+    background: #F28C00;
+    background-size: cover;
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+}
+
+.info{
+    font-style: italic ;
+    color: #3d3b3b;
+    font-family: "sans-serif";
+    font-size: larger;
+    text-align: center;
+}
+
+.Novinky,.Recenzie, .Rozhovory, .Videa {
+    font-size: large;
+    color: wheat;
+    font-style: oblique;
+    text-align: center;
+}
+.Novinky:hover  {
+    background-color: black;
+}
+.Recenzie:hover {
+    background-color: #ff0000;
+}
+.Rozhovory:hover {
+    background-color: #700279;
+}
+.Videa:hover {
+    background-color: #cbb5ac;
+}
+
+.contact {
+    text-align: center;
+}
+
+
+
+.email img, .telNumber img, .address img{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+
+
+
+.container h1 {
+    color: black;
+    font-style: normal;
+    font-size: larger;
+}
+
+
+.container h2 {
+    color: crimson;
+    font-style: normal;
+    font-size: larger;
+}
+
+.map-container{
+    padding-bottom:56.25%;
+    position:relative;
+}
+.map-container iframe{
+    left:100px;
+    top:0;
+    height:80%;
+    width:80%;
+    position:absolute;
+}
+
+
+.carousel-inner {
+    width: 70%;
+    height: 70%;
+    align-items: center;
+    align-content: center;
+    margin-left: 15%;
+}
+
+table,th, td {
+    border-style: solid;
+    border-width: 3px;
+    border-color: wheat;
+    /*border-collapse: collapse;*/
+    text-align: center;
+    margin-top: 7%;
+    margin-left: 15%;
+}
+
+tr:nth-child(2n+1) {
+    background-color: #f8a250;
+}
+
+th {
+    background-color: slategrey;
+    font-weight: bolder;
+}
+
+tr:hover {
+    background-color: azure ;
+}
